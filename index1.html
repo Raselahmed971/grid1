@@ -5,93 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
+        .container1{
             font-size: 18px;
             color: #fff;
             font-weight: bold;
             display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            /* grid-template-rows: 5fr 1fr 2fr; */
-            height: 100%;
-            grid-template-rows:50px 1fr 50px;
-            gap: 5px;
-
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 5fr 1fr 2fr;
 
         }
-        .container div:nth-child(1) {
+        .container1 div:nth-child(1) {
             background: #aaa;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column: 5/-1;
         }
-        .container div:nth-child(2) {
+        .container1 div:nth-child(2) {
             background: #885353;
             padding: 25px;   
             justify-content: center;
             text-align: center; 
-            grid-column:1 / 5;
-            grid-row: 1/3;
-            text-align: center;
-            justify-content: center;
         }
-        .container div:nth-child(3) {
+        .container1 div:nth-child(3) {
             background: #349c8a;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column: 5/7;
         }
-        .container div:nth-child(4) {
-            background: #5c2f2f;
+        .container1 div:nth-child(4) {
+            background: #9f3838;
             padding: 25px;  
             justify-content: center;
             text-align: center;  
-            grid-column: 7/9;
         }
-        .container div:nth-child(5) {
+        .container1 div:nth-child(5) {
             background: #0e1453;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column: 9/-1;
         }
-        .container div:nth-child(6) {
+        .container1 div:nth-child(6) {
             background: #260303;
             padding: 25px;   
             justify-content: center;
             text-align: center; 
-            grid-column: 1/5;
         }
-        .container div:nth-child(7) {
-            background: #44349c;
+        .container1 div:nth-child(7) {
+            background: #349c8a;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column: 5/7;
         }
-        .container div:nth-child(8) {
+        .container1 div:nth-child(8) {
             background: #9f3838;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column: 7/9;
-
-
         }
-        .container div:nth-child(9) {
-            background: #0e3453;
+        .container1 div:nth-child(9) {
+            background: #0e1453;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column: 9/-1;
         }
-        .container div:nth-child(10) {
-            background: #08ac2e;
+        .container1 div:nth-child(10) {
+            background: #260303;
             padding: 25px;    
             justify-content: center;
             text-align: center;
-            grid-column:1/-1 ;
         }
         .button {
             display: flex; /* Sets the display property to flex */
@@ -120,7 +101,7 @@
         <a href="/two.html" class="button">Two</a>
         <a href="/three.html" class="button">Three</a>
     </div>
-    <div class="container">
+    <div class="container1">
         <div class="div1">div1</div>
         <div class="div2">div2</div>
         <div class="div3">div3</div>
@@ -131,6 +112,7 @@
         <div class="div8">div8</div>
         <div class="div9">div9</div>
         <div class="div10">div10</div>
+
     </div>
 </body>
 </html>
